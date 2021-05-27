@@ -8,7 +8,7 @@ alkotója, Henry Dudeney szerkesztett.
 
 Mahalanobis, tesztelendő Ramanujan legendás képességeit, rá is mutatott az éppen aktuális számban található egyik
 rejtvényre, mely a következőképpen szólt:
-Van egy fickó, aki egy hosszú utcában lakik. A házak számozása 1-gyel kezdődik, és folyamatos, tehát 1, 2,
+Van egy fickó, aki egy hosszú utcában lakik. A házak számozása 1-gyel kezdődik, és folyamatos, tehát 1, 2.py,
 3 ... stb. A fickó azt állítja, hogy ő abban a házban lakik, amelyre az igaz, hogy a tőle visszább elhelyezkedő házak
 házszámainak összege, és tőle az utca felé haladva lévő házak házszámának összege megegyezik.
 
