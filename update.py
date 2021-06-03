@@ -25,7 +25,10 @@ def copy_from_github(file_list):
 
 if r.status_code == 200:
     files_list = json.loads(r.text)
-    repo_files = [f['path'] for f in files_list['tree'] if f['path'][-6:] == ".ipynb" and 'checkpoints' not in f['path']]
+    repo_files = [
+        f['path'] for f in files_list['tree']
+        if (f['path'][-6:] == ".ipynb" or f['path'][-4:] == ".png") and 'checkpoints' not in f['path']
+    ]
     copy_from_github(repo_files)
 else:
     print("FAILED. Check your internet connection.")
