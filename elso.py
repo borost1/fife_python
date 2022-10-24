@@ -13,3 +13,5 @@ szoveg = "Előre pythonosok!"
 szoveg = input("adj meg egy szoveget! ")
 szoveg_szokoz_nelkul = szoveg.replace('bab', 'k')
 print(szoveg_szokoz_nelkul)
+
+print("hello")
